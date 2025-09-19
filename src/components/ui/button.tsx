@@ -15,6 +15,9 @@ const buttonVariants = cva(
         secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        arcade: "arcade-button text-background font-mono font-bold",
+        bullish: "bg-bull text-background hover:bg-bull/90 border border-bull/50 font-mono font-bold transition-all hover:scale-105 hover:shadow-lg hover:shadow-bull/25",
+        bearish: "bg-bear text-background hover:bg-bear/90 border border-bear/50 font-mono font-bold transition-all hover:scale-105 hover:shadow-lg hover:shadow-bear/25",
       },
       size: {
         default: "h-10 px-4 py-2",
