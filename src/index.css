@@ -6,47 +6,47 @@
 
 @layer base {
   :root {
-    /* Base Colors - Black & White Theme */
-    --background: 0 0% 0%;
-    --foreground: 0 0% 100%;
+    /* Base Colors - White Background with Black Accents */
+    --background: 0 0% 100%;
+    --foreground: 0 0% 0%;
 
     /* Card System */
-    --card: 0 0% 5%;
-    --card-foreground: 0 0% 95%;
-    --card-hover: 0 0% 10%;
+    --card: 0 0% 98%;
+    --card-foreground: 0 0% 5%;
+    --card-hover: 0 0% 95%;
 
     /* Grayscale Accent Colors */
-    --neon-cyan: 0 0% 90%;
-    --neon-magenta: 0 0% 80%;
-    --neon-lime: 0 0% 70%;
-    --neon-gold: 0 0% 60%;
+    --neon-cyan: 0 0% 20%;
+    --neon-magenta: 0 0% 30%;
+    --neon-lime: 0 0% 40%;
+    --neon-gold: 0 0% 50%;
     
     /* Trading Terminal Colors */
-    --bull-green: 0 0% 70%;
-    --bear-red: 0 0% 30%;
+    --bull-green: 0 0% 30%;
+    --bear-red: 0 0% 60%;
     --neutral-gray: 0 0% 50%;
     
     /* UI System Colors */
-    --primary: 0 0% 100%; /* White */
-    --primary-foreground: 0 0% 0%;
-    --primary-glow: 0 0% 90%;
+    --primary: 0 0% 0%; /* Black */
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 0 0% 20%;
     
-    --secondary: 0 0% 15%;
-    --secondary-foreground: 0 0% 90%;
+    --secondary: 0 0% 95%;
+    --secondary-foreground: 0 0% 10%;
     
-    --accent: 0 0% 20%; /* Dark Gray */
-    --accent-foreground: 0 0% 100%;
-    --accent-glow: 0 0% 40%;
+    --accent: 0 0% 90%; /* Light Gray */
+    --accent-foreground: 0 0% 0%;
+    --accent-glow: 0 0% 70%;
     
-    --muted: 0 0% 10%;
-    --muted-foreground: 0 0% 60%;
+    --muted: 0 0% 96%;
+    --muted-foreground: 0 0% 40%;
     
-    --destructive: 0 0% 20%;
-    --destructive-foreground: 0 0% 90%;
+    --destructive: 0 0% 80%;
+    --destructive-foreground: 0 0% 10%;
     
-    --border: 0 0% 15%;
-    --input: 0 0% 8%;
-    --ring: 0 0% 100%;
+    --border: 0 0% 90%;
+    --input: 0 0% 98%;
+    --ring: 0 0% 0%;
     
     /* Gradients - Holographic Effects */
     --gradient-primary: linear-gradient(135deg, hsl(var(--neon-cyan)), hsl(var(--neon-magenta)));
